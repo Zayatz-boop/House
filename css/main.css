@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    width: 1440px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    overflow-x: hidden;
+}
+
+.header {
+    background-color: #E1EDE6;
+}
+
+.header-container {
+    width: 1110px;
+    margin: 0 auto;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-nav {
+    width: 472px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item {
+    font-size: 20px;
+    color: #2C2D35;
+}
+
+.main {
+    width: 1110px;
+    padding-bottom: 69px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 110%;
+}
+
+span {
+    color: #598D66;
+}
+
+.intro {
+    padding-top: 15px;
+    padding-bottom: 66px;
+    font-size: 18px;
+    color: #86928B;
+    line-height: 150%;
+}
+
+.button-outline {
+    font-size: 20px;
+    color: #598D66;
+    border: 1px solid #598D66;
+    padding: 21px 60px;
+}
+
+.reproductions {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.reproductions-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reproductions-title {
+    font-size: 40px;
+}
+
+.countries {
+    display: flex;
+    gap: 32px;
+}
+
+.country {
+    font-weight: 500;
+    font-size: 20px;
+    background-color: #D4E8D9;
+    padding: 8px 20px;
+    border-radius: 20px;
+}
+
+.items {
+    padding-top: 28px;
+    width: 1110px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.item {
+    background-color: #E1EDE6;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 30px;
+}
+
+.author {
+    padding-top: 20px;
+    font-size: 18px;
+    color: #86928B;
+}
+
+h2 {
+    padding-top: 10px;
+    font-size: 30px;
+    color: #2C2D35;
+}
+
+.materials {
+    padding-top: 8px;
+    font-size: 18px;
+    color: #2C2D35;
+}
+
+.price {
+    padding-top: 30px;
+    font-size: 24px;
+    color: #598D66;
+}
+
+.to-cart {
+    margin-top: 20px;
+    padding: 21px 106px;
+    font-size: 20px;
+    border: 1px solid #598D66;
+    color: #598D66;
+}
+
+.promo {
+    background-image: url(../img/promo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 574px;
+    margin-top: 70px;
+}
+
+.promo-content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    width: 750px;
+    height: 434px;
+    padding-left: 165px;
+    padding-top: 70px;
+}
+
+.promo-header {
+    display: flex;
+    gap: 20px;
+}
+
+h3 {
+    font-size: 40px;
+    color: #F4F6F5;
+    line-height: 100%;
+}
+
+.promo-text-1,
+.promo-text-2 {
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.promo-text-2 {
+    width: 550px;
+}
+
+.see {
+    font-size: 20px;
+    color: #2C2D35;
+    background-color: #EEDB6D;
+    padding: 21px 60px;
+    margin-top: 40px;
+}
+
+.team {
+    width: 1110px;
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.team-container {
+    display: flex;
+    gap: 30px;
+}
+
+.team-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 60px;
+}
+
+.team-text {
+    font-size: 18px;
+    line-height: 150%;
+    color: #2C2D35;
+}
+
+.team-imgs {
+    display: flex;
+    gap: 30px;
+}
+
+.footer {
+    background-color: #E1EDE6;
+}
+
+.footer-container {
+    padding-top: 23px;
+    padding-bottom: 23px;
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-and-phone {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.footer-items {
+    display: flex;
+    gap: 60px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.about-item {
+    font-size: 18px;
+    color: #86928B;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.socials-links {
+    display: flex;
+    gap: 33px;
+}
+
+.copyrights {
+    font-size: 12px;
+    line-height: 120%;
+    color: #86928B;
+}
