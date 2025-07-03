@@ -1,0 +1,64 @@
+@media (max-width: 767px) {
+    body {
+        /* padding: 40px 40px; */
+        max-width: 767px;
+    }
+
+    .header {
+        width: 767px;
+    }
+
+    .main {
+        width: 690px;
+    }
+
+    .main-img {
+        width: 330px;
+    }
+
+    .items {
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .reproductions {
+        margin-left: 40px;
+        width: 100%;
+    }
+
+    .promo {
+        width: 767px;
+        margin: 0 auto;
+    }
+
+    .promo-content {
+        width: 690px;
+        padding: 70px 40px;
+    }
+
+    .team {
+        width: 690px;
+    }
+
+    .team-container {
+        margin: 0 auto;
+        padding: 70px 40px;
+        width: 690px;
+        flex-direction: column;
+    }
+
+    .img-team {
+        width: 413px;
+    }
+
+    .footer {
+        width: 767px;
+    }
+
+    .footer-container {
+        width: 690px;
+        display: flex;
+        gap: 20px;
+    }
+}
