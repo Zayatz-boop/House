@@ -1,11 +1,11 @@
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     body {
         /* padding: 40px 40px; */
-        /* max-width: 767px; */
+        max-width: 767px;
     }
 
     .header {
-        width: 768px;
+        max-width: 767px;
     } 
 
         .header-container {
@@ -28,11 +28,11 @@
 
     .reproductions {
         /* margin-left: 40px; */
-        width: 100%;
+        max-width: 767px;
     }
 
     .promo {
-        width: 767px;
+        max-width: 767px;
         margin: 0 auto;
     }
 
@@ -57,7 +57,7 @@
     }
 
     .footer {
-        width: 767px;
+        max-width: 767px;
     }
 
     .footer-container {
