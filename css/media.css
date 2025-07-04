@@ -6,14 +6,10 @@
 
     .header {
         max-width: 767px;
-    } 
+    }
 
-        .header-container {
-            margin: 0 40px;
-        }
-
-    .main {
-        /* width: 690px; */
+    .header-container {
+        margin: 0 40px;
     }
 
     .main-img {
@@ -65,4 +61,145 @@
         display: flex;
         gap: 20px;
     }
+}
+
+@media (max-width: 320px) {
+    .header-container {
+        height: 130px;
+        margin: 0;
+        padding-top: 100px;
+    }
+
+    .logo {
+        width: 320px;
+        height: 60px;
+        position: absolute;
+        padding-top: 15px;
+        padding-left: 90px;
+        margin-top: -122px;
+        background-color: #fff;
+    }
+
+    .header-nav {
+        visibility: hidden;
+    }
+
+    .main-img {
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .main {
+        margin: 0 15px;
+    }
+
+    h1 {
+        font-size: 30px;
+        line-height: 100%;
+        padding-top: 60px;
+
+    }
+
+    .intro {
+        padding-top: 20px;
+        padding-bottom: 40px;
+        font-size: 14px;
+        line-height: 150%;
+    }
+
+    .button-outline {
+        font-size: 18px;
+        padding: 15px 30px;
+    }
+
+    .reproductions-header {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .reproductions-title {
+        font-size: 24px;
+    }
+
+    .items {
+        padding-top: 28px;
+        width: 290px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        margin-bottom: 60px;
+    }
+
+    .item {
+        width: 320px;
+        padding-left: 15px;
+    }
+
+    .promo {
+        width: 320px;
+    }
+
+    .promo-content {
+        width: 320px;
+        padding: 50px 15px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    .promo-text-1,
+    .promo-text-2 {
+        width: 320px;
+        font-size: 16px;
+        line-height: 140%;
+    }
+
+    .see {
+        font-size: 18px;
+        padding: 15px 84px;
+        margin-top: 30px;
+    }
+
+    .team {
+        width: 320px;
+        padding: 0;
+    }
+
+    .team-container {
+        margin-top: 60px;
+        width: 320px;
+        padding: 0;
+    }
+
+    .team-desc {
+        padding: 0;
+        width: 320px;
+    }
+
+    .team-text {
+        width: 320px;
+    }
+
+    .team-imgs {
+        margin-bottom: 94px;
+    }
+
+    .img-team {
+        width: 235px;
+        margin-left: 35px;
+    }
+
+    .footer-container {
+        padding-top: 23px;
+        padding-bottom: 23px;
+        width: 320px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+
 }
