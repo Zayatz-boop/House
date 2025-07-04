@@ -1,4 +1,11 @@
 @media (max-width: 500px) {
+
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
     .header-container {
         height: 10px;
         margin: 0;
