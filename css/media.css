@@ -1,4 +1,4 @@
-@media (max-width: 1080px) {
+@media (max-width: 460px) {
 
     html,
     body {
@@ -89,7 +89,7 @@
 
     .item {
         width: auto;
-        padding-left: 15px;
+        padding-left: 20px;
     }
 
     .promo {
@@ -150,6 +150,7 @@
     .footer-container {
         padding-top: 23px;
         padding-bottom: 23px;
+        padding-left: 20px;
         width: auto;
         margin: 0 auto;
         display: flex;
@@ -165,6 +166,8 @@
     }
 
     .socials {
+        padding-top: 20px;
+        border-top: 1px solid #000;
         align-items: center;
     }
 }
