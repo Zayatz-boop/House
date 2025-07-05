@@ -6,13 +6,10 @@ html, body {
 }
 
 body {
-    /* width: 1440px; */
-    /* width: 100vw; */
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-    /* overflow-x: hidden; */
 }
 
 .header {
@@ -155,15 +152,17 @@ h2 {
 }
 
 .promo {
+    position: relative;
     background-image: url(../img/promo.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    width: 1440px;
+    /* width: 1440px; */
     height: 574px;
     margin-top: 70px;
 }
 
 .promo-content {
+    position: absolute;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -196,7 +195,7 @@ h3 {
     width: 550px;
 }
 
-.see {
+.watch {
     font-size: 20px;
     color: #2C2D35;
     background-color: #EEDB6D;
