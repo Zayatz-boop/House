@@ -14,7 +14,7 @@
     }
 
     .logo {
-        width: 1080px;
+        width: auto;
         height: 60px;
         position: absolute;
         padding-top: 15px;
@@ -56,7 +56,7 @@
     }
 
     .reproductions {
-        width: 1080px;
+        width: auto;
     }
 
     .reproductions-header {
@@ -79,7 +79,7 @@
 
     .items {
         padding-top: 28px;
-        width: 1080px;
+        width: auto;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(1, 1fr);
@@ -87,16 +87,16 @@
     }
 
     .item {
-        width: 1080px;
+        width: auto;
         padding-left: 15px;
     }
 
     .promo {
-        width: 1080px;
+        width: auto;
     }
 
     .promo-content {
-        width: 1080px;
+        width: auto;
         padding: 50px 15px;
     }
 
@@ -106,7 +106,7 @@
 
     .promo-text-1,
     .promo-text-2 {
-        width: 1080px;
+        width: auto;
         font-size: 16px;
         line-height: 140%;
     }
@@ -118,7 +118,7 @@
     }
 
     .team {
-        width: 1080px;
+        width: auto;
         padding: 0;
     }
 
@@ -126,14 +126,14 @@
         display: flex;
         flex-direction: column;
         margin-top: 60px;
-        width: 1080px;
+        width: auto;
     }
 
     .team-desc {
         padding-top: 0;
         padding-left: 15px;
         padding-right: 15px;
-        width: 1080px;
+        width: auto;
     }
 
     .team-imgs {
@@ -149,7 +149,7 @@
     .footer-container {
         padding-top: 23px;
         padding-bottom: 23px;
-        width: 1080px;
+        width: auto;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
