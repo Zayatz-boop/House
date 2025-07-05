@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-html, body {
+html,
+body {
     width: 100%;
     overflow-x: hidden;
 }
@@ -245,6 +246,11 @@ h3 {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+}
+
+.title {
+    font-size: 20px;
+    color: #2C2D35;
 }
 
 .logo-and-phone {

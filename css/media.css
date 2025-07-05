@@ -6,11 +6,17 @@
         overflow-x: hidden;
     }
 
+    .header {
+        position: fixed;
+    }
+
     .header-container {
+        position: relative;
+        justify-content: space-between;
         width: auto;
         height: 10px;
         margin: 0;
-        padding-top: 100px;
+        padding-top: 80px;
         padding-bottom: -50px;
     }
 
@@ -21,12 +27,40 @@
         padding-top: 15px;
         padding-left: 160px;
         padding-right: 160px;
-        margin-top: -140px;
+        margin-top: -100px;
         background-color: #fff;
     }
 
     .header-nav {
+        padding: 0 20px;
+        padding-top: 10px;
+    }
+
+    .nav-item {
         visibility: hidden;
+    }
+
+    .burger-menu {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 30px;
+        height: 30px;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+        z-index: 100;
+        gap: 6px;
+    }
+
+    .burger-line {
+        width: 30px;
+        height: 3px;
+        background: #4C5866;
+        border-radius: 5px;
+        transition: all 0.3s ease;
     }
 
     .main-img {
@@ -35,7 +69,7 @@
     }
 
     .main {
-        margin: 0 15px;
+        margin: 100px 15px 0px 15px;
     }
 
     h1 {
