@@ -1,4 +1,4 @@
-@media (max-width: 500px) {
+@media (max-width: 1080px) {
 
     html,
     body {
@@ -14,7 +14,7 @@
     }
 
     .logo {
-        width: 500px;
+        width: 1080px;
         height: 60px;
         position: absolute;
         padding-top: 15px;
@@ -56,7 +56,7 @@
     }
 
     .reproductions {
-        width: 500px;
+        width: 1080px;
     }
 
     .reproductions-header {
@@ -79,7 +79,7 @@
 
     .items {
         padding-top: 28px;
-        width: 500px;
+        width: 1080px;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(1, 1fr);
@@ -87,16 +87,16 @@
     }
 
     .item {
-        width: 500px;
+        width: 1080px;
         padding-left: 15px;
     }
 
     .promo {
-        width: 500px;
+        width: 1080px;
     }
 
     .promo-content {
-        width: 500px;
+        width: 1080px;
         padding: 50px 15px;
     }
 
@@ -106,7 +106,7 @@
 
     .promo-text-1,
     .promo-text-2 {
-        width: 500px;
+        width: 1080px;
         font-size: 16px;
         line-height: 140%;
     }
@@ -118,7 +118,7 @@
     }
 
     .team {
-        width: 500px;
+        width: 1080px;
         padding: 0;
     }
 
@@ -126,15 +126,14 @@
         display: flex;
         flex-direction: column;
         margin-top: 60px;
-        width: 500px;
-
+        width: 1080px;
     }
 
     .team-desc {
         padding-top: 0;
         padding-left: 15px;
         padding-right: 15px;
-        width: 500px;
+        width: 1080px;
     }
 
     .team-imgs {
@@ -150,7 +149,7 @@
     .footer-container {
         padding-top: 23px;
         padding-bottom: 23px;
-        width: 500px;
+        width: 1080px;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
