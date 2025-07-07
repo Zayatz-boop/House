@@ -15,6 +15,7 @@ body {
 
 .header {
     background-color: #E1EDE6;
+    width: auto;
 }
 
 .header-container {
@@ -28,14 +29,19 @@ body {
 }
 
 .header-nav {
-    width: 472px;
     display: flex;
     justify-content: space-between;
+    gap: 50px;
 }
 
 .nav-item {
     font-size: 20px;
     color: #2C2D35;
+}
+
+.shopping-cart {
+    width: 20px;
+    height: 20px;
 }
 
 .main {
